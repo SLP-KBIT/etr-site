@@ -14,7 +14,7 @@ $ bower install
 ```sh
 $ bundle exec middleman article {article-title}
 # ・・・
-# editting
+# edit article
 # ・・・
 $ bundle exec middleman build
 $ bundle exec middleman deploy
