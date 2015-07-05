@@ -61,7 +61,7 @@ Slim::Engine.set_default_options :shortcut => {
   '&' => {:tag => 'input', :attr => 'type'}
 }
 
-# Markdown settings 
+# Markdown settings
 set :markdown, :tables => true, :autolink => true, :gh_blockcode => true, :fenced_code_blocks => true, :with_toc_data => true
 set :markdown_engine, :redcarpet
 
@@ -168,8 +168,9 @@ end
 # Deploy settings
 ###
 
-# ftp deployment configuration. 
+# ftp deployment configuration.
 activate :deploy do |deploy|
   deploy.method = :git
+  deploy.remote = "git@github.com:SLP-ETR-public/slp-etr-public.github.io.git"
   deploy.branch = 'master'
 end
