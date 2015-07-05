@@ -1,15 +1,12 @@
 # slp-etr-pages
 
-## how to deploy at first
-
-need bower.
+## how to install
 
 ```sh
+$ npm install -g bower
 $ bundle install
 $ bundle update
 $ bower install
-$ bundle exec middleman build
-$ bundle exec middleman deploy
 ```
 
 ## how to post an article
