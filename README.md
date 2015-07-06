@@ -18,5 +18,11 @@ $ bundle exec middleman article {article-title}
 # ・・・
 $ bundle exec middleman build
 $ bundle exec middleman deploy
+# ・・・
+# update repository
+# ・・・
+$ git add .
+$ git commit -m 'commit message'
+$ git push origin master
 ```
 
