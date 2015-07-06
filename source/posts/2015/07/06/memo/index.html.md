@@ -1,10 +1,4 @@
-﻿---
-title: memo
-date: 2015-07-06 08:54 UTC
-tags: memo
----
-
-# middlemanによる記事の投稿方法
+﻿# middlemanによる記事の投稿方法
 
 ## 環境構築
 
